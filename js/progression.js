@@ -9,5 +9,5 @@ export default function progression(start, end, interval = 3) {
   arithProgress.pop();
   geomProgress.pop();
 
-  return `${arithProgress}, ${geomProgress}`;
+  return `[${arithProgress}], [${geomProgress}]`;
 }

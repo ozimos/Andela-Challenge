@@ -16,6 +16,6 @@ function progression(start, end) {
   arithProgress.pop();
   geomProgress.pop();
 
-  return String(arithProgress) + ", " + String(geomProgress);
+  return "[" + String(arithProgress) + "], [" + String(geomProgress) + "]";
 }
 //# sourceMappingURL=C:\Users\Public\Documents\web_develop\Andela-Challenge\build\js\progression.js.map
