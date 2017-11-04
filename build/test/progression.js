@@ -8,7 +8,7 @@ var assert = require('chai').assert.assert;
 
 describe('progression', function () {
   it('accepts two integers', function () {
-    assert.isOK((0, _progression2['default'])(2, 23));
+    assert.exists((0, _progression2['default'])(2, 23));
   });
   it('outputs an array', function () {
     assert.isArray((0, _progression2['default'])(2, 23));

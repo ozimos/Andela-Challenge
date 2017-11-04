@@ -4,7 +4,7 @@ const { assert } = require('chai').assert;
 
 describe('progression', () => {
   it('accepts two integers', () => {
-    assert.isOK(progression(2, 23));
+    assert.exists(progression(2, 23));
   });
   it('outputs an array', () => {
     assert.isArray(progression(2, 23));
